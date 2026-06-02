@@ -1,0 +1,70 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+
+venv/
+# env/
+ENV/
+
+.
+# Environment Variables
+
+.env
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# IDE
+
+.vscode/
+.idea/
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+logs/
+*.log
+
+# Build
+
+build/
+dist/
+*.egg-info/
+
+# Models
+
+models/*.pkl
+models/*.joblib
+
+# Vector Database
+
+vector_db/*.bin
+vector_db/*.faiss
+
+# Cache
+
+.cache/
+.pytest_cache/
+
+# Streamlit
+
+.streamlit/secrets.toml
+
+# Uploaded Data
+
+data/raw/*
+!data/raw/.gitkeep
+
+# Processed Data
+
+data/processed/*
+!data/processed/.gitkeep

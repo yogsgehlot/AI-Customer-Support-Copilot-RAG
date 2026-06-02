@@ -1,0 +1,19 @@
+from sentence_transformers import SentenceTransformer
+
+MODEL_NAME = "all-MiniLM-L6-v2"
+model = SentenceTransformer(MODEL_NAME)
+
+def generate_embeddings(texts):
+    return model.encode(texts,convert_to_numpy=True)
+
+
+if __name__ == "__main__":
+
+    texts = [
+        "Refunds are allowed within 30 days",
+        "Customers may get their money back"
+    ]
+
+    embeddings = generate_embeddings(texts)
+
+    print(embeddings.shape)

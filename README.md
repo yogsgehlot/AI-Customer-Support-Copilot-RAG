@@ -137,7 +137,7 @@ AI-Customer-Support-Copilot/
 Clone Repository
 
 ```bash
-git clone https://github.com/yogsgehlot/AI-Customer-Support-Copilot.git
+git clone https://github.com/yogsgehlot/AI-Customer-Support-Copilot-RAG.git
 cd AI-Customer-Support-Copilot
 
 ```

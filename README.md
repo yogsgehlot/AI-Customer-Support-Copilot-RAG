@@ -138,7 +138,7 @@ Clone Repository
 
 ```bash
 git clone https://github.com/yogsgehlot/AI-Customer-Support-Copilot-RAG.git
-cd AI-Customer-Support-Copilot
+cd AI-Customer-Support-Copilot-RAG
 
 ```
 

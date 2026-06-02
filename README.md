@@ -328,7 +328,9 @@ docker-compose up --build
 
 ## 💼 Author
 
-**Yogesh Gehlot** *AI/ML Engineer | Backend Developer*
+**Yogesh Gehlot** 
+
+*AI/ML Engineer | Backend Developer*
 
 ### Connect With Me
 
